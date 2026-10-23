@@ -1,0 +1,102 @@
+dataModelId: 8ea74d55-6e29-4074-a2ee-cb1f48bdd49c
+name: PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA (code test)
+url: >-
+  https://staging.sigmacomputing.io/papercranestaging/data-model/PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA-code-test-4lbmNqRtqMKK8zaABL2RDm
+documentVersion: 1
+latestDocumentVersion: 1
+ownerId: 4MuNfE79nJRtNdayVnSWMIMVoQlNZ
+folderId: a53b35c5-a45e-465a-877a-b0a18b8460e2
+createdBy: 4MuNfE79nJRtNdayVnSWMIMVoQlNZ
+updatedBy: 4MuNfE79nJRtNdayVnSWMIMVoQlNZ
+createdAt: '2026-08-11T23:09:11.308Z'
+updatedAt: '2026-08-11T23:09:11.308Z'
+schemaVersion: 1
+pages:
+  - id: 0JOJ6bSrOT
+    name: Page 1
+    elements:
+      - id: 0qjapA8Ryi
+        kind: table
+        source:
+          connectionId: 1653d1af-46f3-4bcf-a754-6fefc004332f
+          kind: warehouse-table
+          path:
+            - RETAIL
+            - PLUGS_ELECTRONICS
+            - PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA
+        columns:
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/ORDER_NUMBER
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Order Number]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/DATE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Date]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/SKU_NUMBER
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Sku Number]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/QUANTITY
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Quantity]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/COST
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Cost]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/PRICE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Price]'
+          - id: J81kL1aWiC
+            formula: '[Quantity] * [Price]'
+            name: Revenue
+            format:
+              kind: number
+              formatString: $,.2f
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/PRODUCT_TYPE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Product Type]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/PRODUCT_FAMILY
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Product Family]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/PRODUCT_LINE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Product Line]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/BRAND
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Brand]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/PRODUCT_NAME
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Product Name]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/STORE_NAME
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store Name]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/STORE_KEY
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store Key]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/STORE_REGION
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store Region]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/STORE_STATE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store State]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/STORE_CITY
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store City]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/STORE_ZIP_CODE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store Zip Code]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/STORE_LATITUDE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store Latitude]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/STORE_LONGITUDE
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Store Longitude]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/CUST_KEY
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Cust Key]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/CUSTOMER_NAME
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Customer Name]'
+          - id: inode-3kb5TXjW54u4nZqm5VsHhj/CUST_JSON
+            formula: '[PLUGS_ELECTRONICS_HANDS_ON_LAB_DATA/Cust Json]'
+        order:
+          - inode-3kb5TXjW54u4nZqm5VsHhj/ORDER_NUMBER
+          - inode-3kb5TXjW54u4nZqm5VsHhj/DATE
+          - inode-3kb5TXjW54u4nZqm5VsHhj/SKU_NUMBER
+          - inode-3kb5TXjW54u4nZqm5VsHhj/QUANTITY
+          - inode-3kb5TXjW54u4nZqm5VsHhj/COST
+          - inode-3kb5TXjW54u4nZqm5VsHhj/PRICE
+          - J81kL1aWiC
+          - inode-3kb5TXjW54u4nZqm5VsHhj/PRODUCT_TYPE
+          - inode-3kb5TXjW54u4nZqm5VsHhj/PRODUCT_FAMILY
+          - inode-3kb5TXjW54u4nZqm5VsHhj/PRODUCT_LINE
+          - inode-3kb5TXjW54u4nZqm5VsHhj/BRAND
+          - inode-3kb5TXjW54u4nZqm5VsHhj/PRODUCT_NAME
+          - inode-3kb5TXjW54u4nZqm5VsHhj/STORE_NAME
+          - inode-3kb5TXjW54u4nZqm5VsHhj/STORE_KEY
+          - inode-3kb5TXjW54u4nZqm5VsHhj/STORE_REGION
+          - inode-3kb5TXjW54u4nZqm5VsHhj/STORE_STATE
+          - inode-3kb5TXjW54u4nZqm5VsHhj/STORE_CITY
+          - inode-3kb5TXjW54u4nZqm5VsHhj/STORE_ZIP_CODE
+          - inode-3kb5TXjW54u4nZqm5VsHhj/STORE_LATITUDE
+          - inode-3kb5TXjW54u4nZqm5VsHhj/STORE_LONGITUDE
+          - inode-3kb5TXjW54u4nZqm5VsHhj/CUST_KEY
+          - inode-3kb5TXjW54u4nZqm5VsHhj/CUSTOMER_NAME
+          - inode-3kb5TXjW54u4nZqm5VsHhj/CUST_JSON
+kind: data-model
